@@ -8,32 +8,14 @@
   0% {
     left: 0px;
   }
-  10% {
-    left: 0px;
-  }
-  20% {
+  25% {
     left: 500px;
-  }
-  30% {
-    left: 500px;
-  }
-  40% {
-    left: 0px;
   }
   50% {
     left: 0px;
   }
-  60% {
+  75% {
     left: 500px;
-  }
-  70% {
-    left: 500px;
-  }
-  80% {
-    left: 0px;
-  }
-  90% {
-    left: 0px;
   }
   100% {
     left: 0px;
@@ -44,32 +26,14 @@
   0% {
     left: 0px;
   }
-  10% {
-    left: 0px;
-  }
-  20% {
+  25% {
     left: 500px;
-  }
-  30% {
-    left: 500px;
-  }
-  40% {
-    left: 0px;
   }
   50% {
     left: 0px;
   }
-  60% {
+  75% {
     left: 500px;
-  }
-  70% {
-    left: 500px;
-  }
-  80% {
-    left: 0px;
-  }
-  90% {
-    left: 0px;
   }
   100% {
     left: 0px;
@@ -84,6 +48,10 @@
   position: relative;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   background-color: red;
 }
 
@@ -96,6 +64,10 @@
   position: relative;
   -webkit-animation-duration: 6s;
           animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   background-color: blue;
 }
 
@@ -108,5 +80,9 @@
   position: relative;
   -webkit-animation-duration: 8s;
           animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   background-color: yellow;
 }/*# sourceMappingURL=style.css.map */
