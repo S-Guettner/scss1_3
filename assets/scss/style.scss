@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin ballSize(){
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+@mixin animation($duration){
+    animation-name: ballAnimation;
+    position: relative;
+    animation-duration: $duration;
+}
+
+
+@keyframes ballAnimation {
+    0%   {left:0px;;}
+    10%  {left:0px;}
+    20%  {left:500px;}
+    30%  {left:500px;}
+    40% {left:0px;}
+    50% {left:0px;}
+    60% {left:500px;}
+    70% {left:500px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+  }
+
+
+.ball1{
+    @include ballSize;
+    @include animation(4s);
+    background-color:red;
+}
+.ball2{
+    @include ballSize;
+    @include animation(6s);
+    background-color: blue;
+}
+.ball3{
+    @include ballSize;
+    @include animation(8s);
+    background-color: yellow;
+}
+
+
+
+
